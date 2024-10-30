@@ -7,4 +7,4 @@
 # export AI_API_KEY="${API_KEY}"
 
 # 백엔드 서버 시작
-python main.py
+python HA_llm_addon/addon_backend/main.py

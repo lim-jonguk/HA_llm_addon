@@ -2,7 +2,7 @@ name: "AI Smart Home Control"
 version: "1.0.0"
 slug: "ai_smart_home"
 description: "LLM 스마트홈 제어"
-url: "https://github.com/lim-jonguk/hass_llm_agent_addon"
+url: "https://github.com/lim-jonguk/HA_llm_addon"
 arch:
   - armhf
   - armv7
