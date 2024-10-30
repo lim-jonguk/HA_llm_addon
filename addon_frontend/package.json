@@ -1,0 +1,21 @@
+{
+    "name": "ai-smart-home-control",
+    "version": "1.0.0",
+    "description": "LLM 스마트홈 제어를 위한 리액트 애플리케이션",
+    "author": "Your Name",
+    "license": "MIT",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.0.0",
+      "vite": "^4.0.0"
+    }
+  }
+  

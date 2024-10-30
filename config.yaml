@@ -1,0 +1,28 @@
+name: "AI Smart Home Control"
+version: "1.0.0"
+slug: "ai_smart_home"
+description: "LLM 스마트홈 제어"
+url: "https://github.com/lim-jonguk/hass_llm_agent_addon"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+ingress: true
+ingress_port: 8080
+panel_icon: mdi:robot
+panel_title: AI Control
+homeassistant_api: true  # 홈어시스턴트 API 접근 허용
+options:
+  api_key: ""
+  model: "gpt-3.5-turbo"
+schema:
+  api_key: password  # 입력값 숨김 처리
+  model:
+    type: select
+    options:
+      - "gpt-3.5-turbo"
+      - "gpt-4"
+      - "gemini"
